@@ -1,0 +1,26 @@
+{
+  "name": "django-ecommerce",
+  "version": "1.0.0",
+  "description": "E-commerce store via Django",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./myapp/static/myapp/src/tailwind.css -o ./myapp/static/myapp/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grenkoff/django-ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grenkoff/django-ecommerce/issues"
+  },
+  "homepage": "https://github.com/grenkoff/django-ecommerce#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
