@@ -6,7 +6,7 @@
         <h1>This is index template</h1>
         <h3>
             {% for item in items %}
-            <a href="/myapp/hello/{{ item.pk }}/">
+            <a href="{% url 'myapp:detail' item.pk %}">
             {{ item.pk }} | {{ item.name }} | {{ item.price }} | {{ item.description }} <br>
             </a>
             {% endfor %}
