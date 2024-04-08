@@ -1,0 +1,13 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>This is index template</h1>
+        <h3>
+            {% for item in items %}
+            {{ item.pk }} | {{ item.name }} | {{ item.price }} | {{ item.description }} <br>
+            {% endfor %}
+        </h3>
+    </body>
+</html>
