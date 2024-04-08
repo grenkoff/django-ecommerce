@@ -11,7 +11,11 @@ def index(request):
 
 
 def index_item(request, my_id):
-    return HttpResponse('Your item id is: ' + str(my_id))
+    item = Product.objects.get(pk=my_id)
+    context = {
+        'item': item
+    }
+    return render(request, 'myapp/detail.html', context)
 
 
 def contacts(request):
