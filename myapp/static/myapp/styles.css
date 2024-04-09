@@ -558,6 +558,14 @@ video {
   position: static;
 }
 
+.h-8 {
+  height: 4rem;
+}
+
+.w-8 {
+  width: 4rem;
+}
+
 .bg-sky-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
